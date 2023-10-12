@@ -21,6 +21,7 @@ An API, or application programming interface, is a collection of rules that allo
 ## Request Payload
   1. JSON request payload for postName:
      Structure:
+     
        {
          "lname":"necida",
          "fname":"justine"
@@ -30,8 +31,9 @@ An API, or application programming interface, is a collection of rules that allo
       lname: The last name of the person.
       fname: The first name of the person.
 
-  2. JSON request payload updateName:
+  3. JSON request payload updateName:
       Structure:
+     
         {
           "id":1,
           "lname":"necida",
@@ -43,8 +45,9 @@ An API, or application programming interface, is a collection of rules that allo
       lname: The last name of the person.
       fname: The first name of the person.
 
-  3. JSON request paylod deleteName:
+  4. JSON request paylod deleteName:
      Structure:
+     
        {
          "id": 1
        }
@@ -54,6 +57,7 @@ An API, or application programming interface, is a collection of rules that allo
 
 ## Response
   Structure:
+  
       {
          "status":"success",
          "data":null
@@ -66,6 +70,7 @@ You can use the API by sending HTTP queries to the appropriate endpoints with yo
 
 ## Contributors
 
+https://github.com/Gabbbbb21/Gab.git
 
 ## Contact
 Information
