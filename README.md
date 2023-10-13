@@ -10,18 +10,22 @@ An API, or application programming interface, is a collection of rules that allo
   1. postName
      
      Description: This endpoint is used to add data to the database.
+     
      HTTP Method: POST
-  2. printName
+  3. printName
      
      Description: This endpoint is used to display the data fromn the database.
+     
      HTTP Method: GET
-  3. updateName
+  5. updateName
      
      Description: This endpoint is used to update data from the database.
+     
      HTTP Method: PUT
-  4. deleteName
+  7. deleteName
      
      Description: This endpoint is used to delete data from the database.
+     
      HTTP Method: DELETE
 
 ## Request Payload
@@ -33,10 +37,11 @@ An API, or application programming interface, is a collection of rules that allo
          "lname":"necida",
          "fname":"justine"
        }
-
+     
   Required Fields:
-      lname: The last name of the person.
-      fname: The first name of the person.
+  lname: The last name of the person.
+      
+  fname: The first name of the person.
 
   2. JSON request payload updateName:
      
@@ -48,9 +53,11 @@ An API, or application programming interface, is a collection of rules that allo
           "fname":"justine"
         }
      ```
-  Required Fields:
+     Required Fields:
       id: Identifier
+      
       lname: The last name of the person.
+      
       fname: The first name of the person.
 
   3. JSON request paylod deleteName:
