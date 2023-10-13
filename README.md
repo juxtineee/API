@@ -41,7 +41,7 @@ An API, or application programming interface, is a collection of rules that allo
   2. JSON request payload updateName:
      
      Structure:
-     ```
+     ```json
         {
           "id":1,
           "lname":"necida",
@@ -56,7 +56,7 @@ An API, or application programming interface, is a collection of rules that allo
   3. JSON request paylod deleteName:
      
      Structure:
-     ```
+     ```json
        {
          "id": 1
        }
@@ -67,7 +67,7 @@ An API, or application programming interface, is a collection of rules that allo
 
 ## Response
    Success Response
-  ```
+  ```json
       {
          "status":"success",
          "data":null
@@ -75,7 +75,7 @@ An API, or application programming interface, is a collection of rules that allo
   ```
 
   Error Response
-  ```
+  ```json
     {
     "status": "error",
     "message": "Invalid or missing data"
