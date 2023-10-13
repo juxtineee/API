@@ -28,7 +28,7 @@ An API, or application programming interface, is a collection of rules that allo
   1. JSON request payload for postName:
      
      Structure:
-     ```
+     ```json
        {
          "lname":"necida",
          "fname":"justine"
