@@ -1,4 +1,4 @@
-![image](https://github.com/juxtineee/API/assets/116367281/dbb28595-ddcc-4170-92e5-26673aa8faf9)#Brief description of API
+
 
 ##API
 
