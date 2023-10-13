@@ -1,4 +1,4 @@
-#Brief description of API
+![image](https://github.com/juxtineee/API/assets/116367281/dbb28595-ddcc-4170-92e5-26673aa8faf9)#Brief description of API
 
 ##API
 
@@ -27,7 +27,7 @@ An API, or application programming interface, is a collection of rules that allo
          "fname":"justine"
        }
 
-     Required Fields:
+  Required Fields:
       lname: The last name of the person.
       fname: The first name of the person.
 
@@ -39,8 +39,8 @@ An API, or application programming interface, is a collection of rules that allo
           "lname":"necida",
           "fname":"justine"
         }
-
-     Required Fields:
+     ```
+  Required Fields:
       id: Identifier
       lname: The last name of the person.
       fname: The first name of the person.
@@ -51,8 +51,9 @@ An API, or application programming interface, is a collection of rules that allo
        {
          "id": 1
        }
-
-      Required Fields:
+     ```
+     
+  Required Fields:
       id: Identifier
 
 ## Response
@@ -62,15 +63,15 @@ An API, or application programming interface, is a collection of rules that allo
          "status":"success",
          "data":null
       }
+  ```
 
- ## Usage
+## Usage
 You can use the API by sending HTTP queries to the appropriate endpoints with your favourite HTTP client or programming language.
 
 ## License
 
 ## Contributors
-
-https://github.com/Gabbbbb21/Gab.git
+  https://github.com/Gabbbbb21/Gab.git
 
 ## Contact
 Information
